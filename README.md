@@ -20,6 +20,7 @@ Downloading Tkinter, our Python GUI:
 ![GUI](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Install_Tkinter.jpg)
 
 Starting Code:
+
 ![Starting Code](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/starting_code.png)
 
 Adding a logo and code for widgets for the application:
@@ -35,8 +36,25 @@ We’re going to be using a treeview widget from tkinter that will allow us to d
 So right now, we’re seeing a message area but it’s not populated yet:
 ![Message Area](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Developing_app.jpg)
 
+Changed some fonts and bolded the font. Also added a scroll bar and buttons to modify or delete entries. 
 
+![Scrollbar and more](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/scrollbar.jpg) 
 
+Creating a function to be able to call the GUI:
 
+![GUI](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Function_Create_GUI.png)
 
+Importing the SQL database into my application:
 
+![SQL](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/import_SQL.jpg)
+
+I'll create another function to be able to interact with the database. I'll also create a function to add new contacts into the database, validate inputs, and be able to fetch all records from the database to be able to display in treeview, the function that allows this in the application:
+
+![treeview](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/add_new_contacts.jpg)
+
+Adding contacts:
+
+![Hermione_contact](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/add_contact_hermione.png)
+
+Adding contact message:
+![message](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/adding_contact_message.png)
