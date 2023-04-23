@@ -14,4 +14,29 @@ Creating tables in the database:
 ![Tables](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Create_Table.jpg)
 
 Creating contacts in the database:
-![Contacts](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Create_Contact_list.jpg))
+![Contacts](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Create_Contact_list.jpg)
+
+Downloading Tkinter, our Python GUI:
+![GUI](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Install_Tkinter.jpg)
+
+Starting Code:
+![Starting Code](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/starting_code.png)
+
+Adding a logo and code for widgets for the application:
+![Logo](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/building_apps.png)
+
+Adding a LabelFrame, labels, entry fields for contacts, and a button:
+![Buttons And Fields](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Adding_buttons_fields.jpg)
+
+Now, we’re going to add another label where we’d be able to see a message come up when we add or delete a lead or a contact.
+We’re going to be using a treeview widget from tkinter that will allow us to display messages. Some of the code development:
+![Code Development](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/code.jpg)
+
+So right now, we’re seeing a message area but it’s not populated yet:
+![Message Area](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Developing_app.jpg)
+
+
+
+
+
+
