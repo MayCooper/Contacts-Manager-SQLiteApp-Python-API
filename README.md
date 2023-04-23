@@ -75,4 +75,22 @@ I'll also add this code block to deal with exceptions if you try to delete witho
 
 ![exceptions](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Creating_exceptions.jpg)
 
+Wiring up buttons for the modify selected button and changing contacts:
 
+![Buttons](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/modify_bottons.jpg)
+
+Testing “modify selected” button:
+
+![Items_not_selected](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/No_items_selected.jpg)
+
+Creating virtual environment, installing Django, installing REST framework
+
+![VM_Creation_Django](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Creating_VM_Django_Install.jpg)
+
+Registering products:
+
+![Registering_products](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Django_Product_Registration.jpg)
+
+Creating API infob backend:
+
+![API_info_](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Django_Admin.jpg)
