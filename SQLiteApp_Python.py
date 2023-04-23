@@ -7,6 +7,7 @@ class Contacts:
     db_filename= 'contacts.db'
     def __init__(self, root):
         self.root = root #root will store tha application
+        self.scrollbar = ttk.Scrollbar(self.root)
         self.create_gui()
         ttk.style= ttk.Style()
         ttk.style.configure('Treeview', font=('Lato', 10))
@@ -58,19 +59,21 @@ class Contacts:
         self.message.grid(row=3, column=1, sticky=W)
 
     def create_tree_view(self):
-        self.tree = ttk.Treeview(height=10, columns=('email','number'))
+        self.tree = ttk.Treeview(height=10, columns=('email','number'), yscrollcommand=self.scrollbar.set)
         self.tree.grid(row=6, column=0, columnspan=3)
         self.tree.heading('#0', text='Name', anchor=W)
         self.tree.heading('email', text='Email Address', anchor=W)
         self.tree.heading('number', text='Contact Number', anchor=W)
 
     def create_scrollbar(self):
-        self.scrollbar = Scrollbar(orient='vertical', command=self.tree.yview)
+        self.scrollbar.config(command=self.tree.yview)
         self.scrollbar.grid(row=6, column=3, rowspan=10, sticky='sn')
+        self.tree.configure(yscrollcommand=self.scrollbar.set)
 
     def create_bottom_buttons(self):
         Button(text='Delete Selected', command=self.on_delete_selected_button_clicked, bg='red', fg='white').grid(row=8, column=0, sticky=W, pady=10, padx=20)
         Button(text='Modify Selected', command=self.on_modify_selected_button_clicked, bg='purple', fg='white').grid(row=8, column=1, sticky=W)
+
 
     def on_add_contact_button_clicked(self):
         self.add_new_contact()
