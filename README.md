@@ -12,3 +12,6 @@ Some examples from the project:
 
 Creating tables in the database:
 ![Tables](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Create_Table.jpg)
+
+Creating contacts in the database:
+![Contacts](https://github.com/MayCooper/Contacts-Manager-SQLiteApp-Python-API/blob/main/Images/Create_Contact_list.jpg))
